@@ -1,0 +1,21 @@
+# https://www.hackerrank.com/challenges/most-commons
+
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+if __name__ == '__main__':
+        s = input()
+        DD = {}
+        for i in s:
+                if i not in DD:
+                        DD[i] = 1
+                else:
+                        DD[i] += 1
+        DD = sorted(DD.items(), key=lambda x:(-x[1],x[0]), reverse=False)
+        for key, value in DD[:3]:
+                print(key, value)
