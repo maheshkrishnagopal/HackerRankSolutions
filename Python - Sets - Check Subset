@@ -55,4 +55,4 @@ for i in range(tc):
     if set_B.intersection(set_A) == set_A:
         print(True)
     else:
-        print(False)
+        print(False) 
