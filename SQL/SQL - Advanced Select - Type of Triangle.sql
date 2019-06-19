@@ -1,5 +1,4 @@
 /* 
-
 select 
   case 
     when (A+B)>C 
