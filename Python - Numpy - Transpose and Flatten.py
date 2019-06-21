@@ -10,3 +10,4 @@ for i in range(N):
 arr = numpy.array(inp)
 print(numpy.transpose(arr))
 print(arr.flatten())
+
